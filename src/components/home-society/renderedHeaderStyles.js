@@ -1,0 +1,28 @@
+export const containerStyles = {
+    position: "relative",
+    height: "160px",
+    width: "100%",
+    borderRadius: "13px",
+    overflow: "hidden",
+  },
+  titleBoxStyles = {
+    position: "absolute",
+    top: 0,
+    width: "100%",
+    height: "35%",
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+    background: "#EFC94C",
+    zIndex: 4,
+  },
+  imgBgBoxStyles = {
+    position: "absolute",
+    top: "5%",
+    width: "100%",
+    height: "100%",
+    backgroundPosition: "center !important",
+    backgroundSize: "cover !important",
+    backgroundRepeat: "no-repeat !important",
+    zIndex: "1",
+  };
