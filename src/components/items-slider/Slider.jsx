@@ -22,8 +22,8 @@ const Slider = ({
   slidesPerViewInSm,
   swiperClassNames = "",
   sliderWithRadius = true,
-  sliderHeight = "18vh",
-  sliderBg = "18vh",
+  sliderHeight = "230px",
+  sliderBg = "",
   swiperConfig = {},
   children,
 }) => {
