@@ -15,7 +15,7 @@ const LeftSection = () => {
           <br /> سایت و یا اپلیکیشن با ما در ارتباط باشید
         </Typography>
       </Box>
-      <Divider />
+      <Divider color="#707070" />
       <Box>
         <Typography
           variant="h5"
@@ -30,12 +30,14 @@ const LeftSection = () => {
           component="pre"
           style={{ direction: "rtl" }}
         >
-          ۰۲۱-۴۴۱۰۱۷۱۱       ۰۲۱-۴۴۱۰۱۷۸۸<br />
-          ایمیل: Info@plastapp.ir<br />
+          ۰۲۱-۴۴۱۰۱۷۱۱ ۰۲۱-۴۴۱۰۱۷۸۸
+          <br />
+          ایمیل: Info@plastapp.ir
+          <br />
           تهران،سازمان آب،اتوبان باکری،خ شربیانی شرقی،پ۱ط۳
         </Typography>
       </Box>
-      <Divider />
+      <Divider color="#707070" />
       <Grid
         container
         flexDirection="row-reverse"

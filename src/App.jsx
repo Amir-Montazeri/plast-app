@@ -13,10 +13,10 @@ const App = () => {
       <GlobalStyles styles={styles} />
       {/* <Navbar />
       <Home /> */}
-      {/* <Main /> */}
+      <Main />
       {/* <AboutUs /> */}
       {/* <DownloadApp /> */}
-      <ContactUs />
+      {/* <ContactUs /> */}
     </main>
   );
 };
