@@ -1,4 +1,5 @@
 import { GlobalStyles } from "@mui/material";
+import AboutUs from "pages/about-us";
 import Main from "pages/main";
 // import { Navbar } from "components";
 // import { Home } from "pages";
@@ -10,7 +11,8 @@ const App = () => {
       <GlobalStyles styles={styles} />
       {/* <Navbar />
       <Home /> */}
-      <Main />
+      {/* <Main /> */}
+      <AboutUs />
     </main>
   );
 };

@@ -11,7 +11,7 @@ const config = {
     sliderHeight: "250px",
     slidesPerViewInXl: 2,
     slidesPerViewInLg: 3,
-    slidesPerViewInSm: 3,
+    slidesPerViewInSm: 4,
     autoplay: {
       delay: 2000,
       disableOnInteraction: true,

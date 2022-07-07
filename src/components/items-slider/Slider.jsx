@@ -47,6 +47,7 @@ const Slider = ({
     <Swiper
       {...config}
       {...swiperConfig}
+      modules={[...(swiperConfig.modules || []), ...config.modules]}
       slidesPerView={
         calSlidesPerView(
           windowSize.innerWidth,
