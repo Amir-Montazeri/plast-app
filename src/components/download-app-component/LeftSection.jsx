@@ -4,19 +4,17 @@ import { imgContainer } from "./leftSectionStyles";
 
 const LeftSection = () => {
   const [bgUrl, setBgUrl] = useState(
-    "./assets/main-backgrounds/aboutus-banner.jpg"
+    "./assets/main-backgrounds/download-app-banner.svg"
   );
 
   return (
     <>
       <Box
         sx={{
-          // background: `url(${bgUrl}) !important`,
+          backgroundImage: `url(${bgUrl}) !important`,
           ...imgContainer,
         }}
-      >
-        right
-      </Box>
+      ></Box>
     </>
   );
 };

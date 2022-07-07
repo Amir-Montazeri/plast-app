@@ -1,14 +1,11 @@
 export const leftSectionStyles = {
-    width: "50%",
-    height: "100%",
-    "@media screen and (max-width: 1010px)": {
-      display: "none",
-      visibility: "hidden",
-    },
+    marginTop: "15px",
+    width: "400px",
+    height: "400px",
+    backgroundColor: "#fff",
   },
   imgContainer = {
-    height: "100%",
-    width: "100%",
+    height: "90%",
     backgroundPosition: "center !important",
     backgroundSize: "cover !important",
     backgroundRepeat: "no-repeat !important",
