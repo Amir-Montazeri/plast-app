@@ -1,10 +1,19 @@
-const { Grid } = require("@mui/material");
+import { Grid } from "@mui/material";
+import LeftSection from "./LeftSection";
+import RightSection from "./RightSection";
+import { containerStyles } from "./aboutUsComponentStyles";
+import { rightSectionStyles } from "./rightSectionStyles";
+import { leftSectionStyles } from "./leftsectionStyles";
 
 const AboutUsComponent = () => {
   return (
-    <Grid container>
-      <Grid item></Grid>
-      <Grid item></Grid>
+    <Grid container justifyContent="center" sx={containerStyles}>
+      <Grid item sx={rightSectionStyles}>
+        <RightSection />
+      </Grid>
+      <Grid item sx={leftSectionStyles}>
+        <LeftSection />
+      </Grid>
     </Grid>
   );
 };
