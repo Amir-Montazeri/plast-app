@@ -8,6 +8,9 @@ import sampleItems from "./sampleItems.json";
 const config = {
     sliderWithRadius: false,
     sliderHeight: "250px",
+    slidesPerViewInXl: 2,
+    slidesPerViewInLg: 3,
+    slidesPerViewInSm: 3,
   },
   swiperConfig = {
     navigation: false,

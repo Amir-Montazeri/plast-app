@@ -1,3 +1,7 @@
 export const containerStyles = {
-  width: "100%",
-};
+    margin: "10px 0",
+    width: "100%",
+  },
+  itemsStyles = {
+    cursor: "pointer",
+  };
