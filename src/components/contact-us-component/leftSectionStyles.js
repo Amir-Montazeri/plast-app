@@ -7,9 +7,6 @@ export const leftSectionStyles = {
     justifyContent: "space-evenly",
     background: "#fff",
     overflowY: "auto",
-    "@media screen and (max-width: 1010px)": {
-      width: "100%",
-    },
   },
   iconsContainer = {
     display: "flex",

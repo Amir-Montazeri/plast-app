@@ -7,7 +7,7 @@ import { leftSectionStyles } from "./leftSectionStyles";
 
 const ContactUsComponent = () => {
   return (
-    <Grid container justifyContent="center" sx={containerStyles}>
+    <Grid container justifyContent="center" wrap="wrap" sx={containerStyles}>
       <Grid item sx={rightSectionStyles}>
         <RightSection />
       </Grid>

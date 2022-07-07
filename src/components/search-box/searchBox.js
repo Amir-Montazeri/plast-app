@@ -43,7 +43,7 @@ export const containerStyles = {
     borderRadius: "20px",
   },
   selectContainerStyles = {
-    width: "30%",
+    width: "27%",
     display: "flex",
     flexWrap: "no-wrap",
     alignItems: "center",
@@ -54,6 +54,15 @@ export const containerStyles = {
     "*": {
       border: "none !important",
       outline: "none !important",
+    },
+    " .css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input":
+      {
+        padding: "0 30px 0 0 !important",
+        maxWidth: "70px",
+        overflowX: "hidden",
+      },
+    " .css-78trlr-MuiButtonBase-root-MuiIconButton-root": {
+      padding: "8pxs 4px",
     },
     "@media screen and (max-width: 645px)": {
       width: "110px",

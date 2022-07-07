@@ -23,7 +23,7 @@ const LeftSection = () => {
           color="#005078"
           style={{ direction: "rtl" }}
         >
-          شماره های تماس:
+          شماره های تماس
         </Typography>
         <Typography
           variant="body1"
