@@ -1,5 +1,6 @@
 import { GlobalStyles } from "@mui/material";
 import AboutUs from "pages/about-us";
+import ContactUs from "pages/contact-us";
 import DownloadApp from "pages/download-app";
 import Main from "pages/main";
 // import { Navbar } from "components";
@@ -14,7 +15,8 @@ const App = () => {
       <Home /> */}
       {/* <Main /> */}
       {/* <AboutUs /> */}
-      <DownloadApp />
+      {/* <DownloadApp /> */}
+      <ContactUs />
     </main>
   );
 };
