@@ -1,6 +1,7 @@
 import { Box } from "@mui/material";
 import ItemDramatic from "components/item-dramatic";
 import Slider from "components/items-slider/Slider";
+import { Autoplay } from "swiper";
 import { SwiperSlide } from "swiper/react";
 import { containerStyles } from "./firstSallingItemsStyles";
 import sampleItems from "./sampleItems.json";
@@ -11,6 +12,11 @@ const config = {
     slidesPerViewInXl: 2,
     slidesPerViewInLg: 3,
     slidesPerViewInSm: 3,
+    autoplay: {
+      delay: 2000,
+      disableOnInteraction: true,
+    },
+    modules: [Autoplay],
   },
   swiperConfig = {
     navigation: false,

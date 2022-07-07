@@ -2,18 +2,18 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "./swiperEdited.css";
 import { useEffect, useState } from "react";
-import { FreeMode, Navigation, Pagination } from "swiper";
+import { Autoplay } from "swiper";
 import { Swiper } from "swiper/react";
 import { calSlidesPerView, getWindowSize } from "functions/sizes";
 
 const config = {
   spaceBetween: 5,
   slidesPerView: 5,
-  pagination: {
-    clickable: true,
+  autoplay: {
+    delay: 2000,
+    disableOnInteraction: true,
   },
-  navigation: true,
-  modules: [Navigation, Pagination, FreeMode],
+  modules: [Autoplay],
 };
 
 const Slider = ({

@@ -29,7 +29,4 @@ export const containerStyles = {
     "> div": {
       height: "90% !important",
     },
-    "@media screen and (min-width: 1000px)": {
-      width: "86%",
-    },
   };

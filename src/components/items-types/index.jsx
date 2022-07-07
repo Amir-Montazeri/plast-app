@@ -1,8 +1,16 @@
 import { Box, Typography } from "@mui/material";
 import { SwiperSlide } from "swiper/react";
+import { Navigation } from "swiper";
 import { containerStyles, titleStyles } from "./itemsTypesStyles";
 import sampleItems from "./sampleItems.json";
 import Slider from "../items-slider/Slider";
+
+const config = {
+  swiperConfig: {
+    navigation: true,
+    modules: [Navigation],
+  },
+};
 
 const ItemsTypes = () => {
   const renderedSlides = (items) =>
@@ -14,7 +22,9 @@ const ItemsTypes = () => {
           width="70%"
           style={{ background: `url(${item.iconUrl})`, zIndex: 5 }}
         />
-        <Typography component="p">{item.title}</Typography>
+        <Typography variant="h6" component="p">
+          {item.title}
+        </Typography>
       </SwiperSlide>
     ));
 
@@ -23,7 +33,7 @@ const ItemsTypes = () => {
       <Typography variant="h5" component="h2" sx={titleStyles}>
         گروه محصول خود را انتخاب کنید
       </Typography>
-      <Slider>{renderedSlides(sampleItems)}</Slider>
+      <Slider {...config}>{renderedSlides(sampleItems)}</Slider>
     </Box>
   );
 };
