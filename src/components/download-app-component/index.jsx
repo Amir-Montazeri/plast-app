@@ -1,11 +1,11 @@
 import { Grid } from "@mui/material";
 import LeftSection from "./LeftSection";
 import RightSection from "./RightSection";
-import { containerStyles } from "./aboutUsComponentStyles";
+import { containerStyles } from "./downloadAppComponentStyles";
 import { rightSectionStyles } from "./rightSectionStyles";
 import { leftSectionStyles } from "./leftSectionStyles";
 
-const AboutUsComponent = () => {
+const DownloadAppComponent = () => {
   return (
     <Grid container justifyContent="center" sx={containerStyles}>
       <Grid item sx={rightSectionStyles}>
@@ -18,4 +18,4 @@ const AboutUsComponent = () => {
   );
 };
 
-export default AboutUsComponent;
+export default DownloadAppComponent;
