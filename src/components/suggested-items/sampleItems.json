@@ -2,8 +2,8 @@
   {
     "title": "دستکش یکبار مصرف",
     "desc": "موجود در انبار پلاست اب",
-    "minPrice": 8000,
-    "maxPrice": 160000,
+    "minPrice": "۸۰۰۰",
+    "maxPrice": "۱۶۰۰۰۰",
     "iconUrl": "./assets/icons/yek-masraf.png",
     "star": 3,
     "id": 0
@@ -11,8 +11,8 @@
   {
     "title": "دستکش یکبار مصرف",
     "desc": "موجود در انبار پلاست اب",
-    "minPrice": 8000,
-    "maxPrice": 160000,
+    "minPrice": "۸۰۰۰",
+    "maxPrice": "۱۶۰۰۰۰",
     "iconUrl": "./assets/icons/yek-masraf.png",
     "star": 3,
     "id": 1
@@ -20,8 +20,8 @@
   {
     "title": "نایلون طرح لبخند",
     "desc": "موجود در انبار پلاست اب",
-    "minPrice": 10000,
-    "maxPrice": 210000,
+    "minPrice": "۱۰۰۰۰",
+    "maxPrice": "۲۱۰۰۰۰",
     "iconUrl": "./assets/icons/naylon.jpg",
     "star": 4,
     "id": 2
@@ -29,8 +29,8 @@
   {
     "title": "دستکش یکبار مصرف",
     "desc": "موجود در انبار پلاست اب",
-    "minPrice": 8000,
-    "maxPrice": 160000,
+    "minPrice": "۸۰۰۰",
+    "maxPrice": "۱۶۰۰۰۰",
     "iconUrl": "./assets/icons/yek-masraf.png",
     "star": 3,
     "id": 3
@@ -38,8 +38,8 @@
   {
     "title": "نایلون طرح لبخند",
     "desc": "موجود در انبار پلاست اب",
-    "minPrice": 10000,
-    "maxPrice": 210000,
+    "minPrice": "۱۰۰۰۰",
+    "maxPrice": "۲۱۰۰۰۰",
     "iconUrl": "./assets/icons/naylon.jpg",
     "star": 4,
     "id": 4
